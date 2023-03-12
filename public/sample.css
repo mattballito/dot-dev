@@ -1,0 +1,114 @@
+.button {
+    border-radius: 6px;
+    background-color: black;
+    opacity: 0.5;
+    border-style: groove;
+    color: #02f266;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 8px;
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+  .outer-container {
+    border: 1px dotted black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.inner-container {
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.video-overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 10px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #FFF;
+    background-color: rgba(50, 50, 50, 0.3);
+}
+
+
+
+
+.texting-container {
+    pointer-events: none;
+    margin: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.aboutButton {
+  background-color: black;
+}
+
+.poster {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/*
+.bigMain {
+  border: 1px dotted black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+.inner-container {
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+}
+
+
+
